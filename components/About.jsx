@@ -3,25 +3,30 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='w-ful md:h-screen flex item-center py-16'>
+    <div id='about' className='w-full md:h-screen flex item-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#0B0633]'>About</p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>I am not your normal developer</p>
           <p classname='py-2 text-gray-600'>
-            I have spent the last 12 years in the fire serrvice working as a professional
-            firefighter & paramedic. I have always had a knack for technology and working with
-            computers. In 2019 I started working with HTML & CSS to make some minor edits on a small
-            business website that i was operating. What i thought was just a few small edits turned
-            into a love for programming
+            I'm Levi John Favour, a versatile web developer with a deep toolkit of skills. From
+            ReactJS and NextJS to Tailwind CSS, Material UI, and Bootstrap CSS, I've navigated them
+            all during my 2.5+ years in the coding world.
           </p>
           <p className='py-2 text-gray-600'>
-            Facinated with how intricate programming can be i was quickly drawn to learn more. I
-            started learning javascript and was even more ethused with making websites interactive.
-            I then started freelancing for e-commerce companies on the shopify platform. I am now
-            spending my time building projects with React JS, Next JS, and learning new
-            technologies.
+            {' '}
+            With a National Diploma in Computer Sciences and a track record of success, I've honed
+            my craft through meaningful experiences. I proudly contributed as a Front-End Developer
+            for the USAF (United States of Africa) for 7 months, playing a role in remarkable
+            projects. I also gained valuable insights during my Front-End Developer internship at
+            Saultech Nigeria.
+          </p>
+          <p className='py-2 text-gray-600'>
+            What sets me apart? My ability to swiftly grasp new concepts, coupled with my
+            collaborative spirit. While I excel at individual work, I thrive in team settings,
+            learning from fellow professionals. Versatility is my strength – throw any challenge my
+            way, and I'll meet it head-on. Let's build something remarkable together.
           </p>
           <p className='py-2 text-gray-600 underline cursor-pointer'>
             Check out some of my latest projects.
