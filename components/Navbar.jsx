@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import Logo from '../public/assets/3.png';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
       }
     >
       <div className='flex justify-between items-center h-full px-2 2xl:px-16 bg-[#ecf0f3] '>
-        <Image src='/../public/assets/3.png' alt='/' width='110' height='30' className='ml-5' />
+        <Image src={Logo} alt='/' width='110' height='30' className='ml-5' />
         <div>
           <ul className='hidden md:flex'>
             <Link href='/'>
@@ -68,7 +69,7 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Image src='/../public/assets/3.png' alt='/' width='100' height='50' />
+              <Image src={Logo} alt='/' width='100' height='50' />
               <div
                 onClick={handleNav}
                 className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'

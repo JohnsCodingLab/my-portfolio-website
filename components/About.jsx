@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import FavourImg from '../public/assets/projects/favour.jpg';
 
 const About = () => {
   return (
@@ -33,13 +34,7 @@ const About = () => {
           </p>
         </div>
         <div className='w-[350px] shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center  hover:scale-105 ease-in duration-300'>
-          <Image
-            className='rounded-xl'
-            src='/../public/assets/projects/favour.jpg'
-            alt='/'
-            width='250'
-            height='250'
-          />
+          <Image className='rounded-xl' src={FavourImg} alt='/' width='250' height='250' />
         </div>
       </div>
     </div>
